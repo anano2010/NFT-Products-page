@@ -4,9 +4,6 @@
 body {
     background-color: var(--background, #2B2B2B) !important; 
 }
-.row{
-    --bs-gutter-x: 0rem !important;
-}
 .navbar-default{
     padding: 20px 50px !important;
     background: var(--background, #2B2B2B);
@@ -727,6 +724,9 @@ body {
     background-size: cover;
     background-position: center;
     height: 320px;
+}
+.creators .row ,.screen{
+    --bs-gutter-x: 0rem !important;
 }
 .info{
     box-sizing: border-box;
